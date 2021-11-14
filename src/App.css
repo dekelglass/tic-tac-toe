@@ -1,0 +1,5 @@
+.game-container {
+    display: grid;
+    grid-template-rows: 42px auto;
+    grid-template-columns: repeat(9, 1fr);
+}

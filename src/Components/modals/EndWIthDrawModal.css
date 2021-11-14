@@ -1,0 +1,24 @@
+.end-with-draw-modal {
+    position: fixed;
+    top: 20%;
+    left: calc(50% - 200px);
+    background: cadetblue;
+    height: 230px;
+    width: 400px;
+}
+
+.message-container {
+    line-height: 63px;
+    text-align: center;
+}
+
+.ok-button {
+    bottom: 19px;
+    right: 151px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    position: absolute;
+    width: 85px;
+
+}

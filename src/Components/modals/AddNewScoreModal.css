@@ -1,0 +1,56 @@
+.add-new-score-modal {
+    position: fixed;
+    top: 20%;
+    left: calc(50% - 200px);
+    background: cadetblue;
+    height: 230px;
+    width: 400px;
+}
+
+.icon-container {
+    position: absolute;
+    top: 15px;
+    right: 51px;
+    font-size: 35px;
+    color: gold;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    height: 60px;
+    margin: 0px;
+}
+
+.sub-header {
+    justify-content: space-between;
+    margin-top: 17px;
+    display: flex;
+    width: 84%;
+    position: relative;
+    left: 48px;
+}
+
+.add-button {
+    position: absolute;
+    bottom: 19px;
+    right: 151px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.name-input {
+    position: relative;
+    left: 64px;
+    top: 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+    background: beige;
+    font-size: 20px;
+}

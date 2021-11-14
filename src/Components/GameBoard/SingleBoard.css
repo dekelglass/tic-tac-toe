@@ -1,0 +1,32 @@
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-self: center;
+}
+.board-grid.won-by-PLAYER1 {
+  outline: 2px solid blue;
+}
+.board-grid.won-by-PLAYER2 {
+  outline: 3px solid red;
+}
+
+.board-cell, .board-cell:disabled {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  color: black;
+  background-color: lightcyan;
+  width: 50px;
+  height: 50px;
+}
+.board-grid.disabled .board-cell:disabled {
+  background-color: lightgray;
+}
+
+.board-cell:hover:not(:disabled) {
+  background-color: aquamarine;
+}
+
